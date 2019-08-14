@@ -12,7 +12,9 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56e7c5ce-1e8e-4614-9b33-2e83a859b127" name="Default Changelist" comment="" />
+    <list default="true" id="56e7c5ce-1e8e-4614-9b33-2e83a859b127" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/microserviceclouddemo2-api/target/" />
@@ -149,6 +151,7 @@
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -239,12 +242,20 @@
       <select />
     </treeState>
   </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="21" />
     <option name="y" value="189" />
     <option name="width" value="1760" />
     <option name="height" value="780" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <hideEmptyPackages ProjectPane="false" />
@@ -587,12 +598,20 @@
       <workItem from="1564919252185" duration="8695000" />
       <workItem from="1565008559412" duration="4813000" />
       <workItem from="1565534652663" duration="367000" />
-      <workItem from="1565751202813" duration="157000" />
+      <workItem from="1565751202813" duration="1248000" />
     </task>
+    <task id="LOCAL-00001" summary="微服务demo">
+      <created>1565751620386</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1565751620386</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152124000" />
+    <option name="totallyTimeSpent" value="153215000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -605,6 +624,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5727554" visible="true" weight="0.37419006" />
       <window_info id="Structure" order="1" sideWeight="0.42651758" side_tool="true" weight="0.26025918" />
@@ -647,6 +667,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="微服务demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="微服务demo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
