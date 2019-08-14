@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="microserviceclouddemo2consumerdept80" />
+        <module name="microserviceclouddemo2consumerhystrixdashboard" />
+        <module name="microserviceclouddemo2providerdept8002" />
+        <module name="microserviceclouddemo2providerdept8001" />
+        <module name="microserviceclouddemo2_eureka_7002" />
+        <module name="microserviceclouddemo2_eureka_7001" />
+        <module name="microserviceclouddemo2providerdept8003" />
+        <module name="microserviceclouddemo2consumerdeptfeign" />
+        <module name="microserviceclouddemo2configclient3355" />
+        <module name="microservicecloud-api" />
+        <module name="microserviceclouddemo2zuulgateway9527" />
+        <module name="microserviceclouddemo2providerdepthystrix8001" />
+        <module name="microserviceclouddemo2config3344" />
+        <module name="microserviceclouddemo2_eureka7003" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ear" target="1.8" />
+      <module name="ejbs" target="1.8" />
+      <module name="logging" target="1.8" />
+      <module name="microservicecconfigclient3355" target="1.8" />
+      <module name="microserviceclouddemo2api" target="1.8" />
+      <module name="microserviceclouddemo2eureka7001" target="1.8" />
+      <module name="primary-source" target="1.8" />
+      <module name="projects" target="1.8" />
+      <module name="servlet" target="1.8" />
+      <module name="servlets" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

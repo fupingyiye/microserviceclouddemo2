@@ -1,0 +1,6 @@
+server:
+  port: 9001
+
+#turbine:
+#  app-config: microservicedemo2-dept,microservice-dept
+#  cluster-name-expression: "'default'"

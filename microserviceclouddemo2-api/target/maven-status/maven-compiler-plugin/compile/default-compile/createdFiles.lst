@@ -1,0 +1,4 @@
+com\icss\service\DeptClientServiceFallbackFactory$1.class
+com\icss\entities\Dept.class
+com\icss\service\DeptClientService.class
+com\icss\service\DeptClientServiceFallbackFactory.class

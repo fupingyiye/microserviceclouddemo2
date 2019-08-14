@@ -1,0 +1,34 @@
+server:
+  port: 9527
+
+spring:
+  application:
+    name: microserviceclouddemo2-zuul-gateway
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka,http://eureka7003.com:7003/eureka
+  instance:
+    instance-id: gateway-9527.com
+    prefer-ip-address: true
+
+
+zuul:
+#  设置让真实的微服务名称不能访问，只能使用假的微服务名称
+  #禁一个
+  #ignored-services: microserviceclouddemo2-dept
+  #设置统一公共前缀
+  prefix: /icss
+  #禁所有
+  ignored-services: "*"
+  #隐藏自己真实的微服务名称，对外暴露假的名称
+  routes:
+    mydept.serviceId: microserviceclouddemo2-dept
+    mydept.path: /mydept/**
+
+info:
+  app.name: icss-microcloud
+  company.name: www.icss.com
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$

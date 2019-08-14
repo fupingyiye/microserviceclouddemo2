@@ -1,0 +1,5 @@
+
+spring:
+  application:
+    #要写就一定要和bootstrap里面的name名字保持一致
+    name: microserviceclouddemo2-config-client
